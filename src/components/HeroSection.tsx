@@ -19,7 +19,7 @@ export default function HeroSection() {
     show: { 
       y: 0, 
       opacity: 1, 
-      transition: { type: "spring", stiffness: 80, damping: 20 } 
+      transition: { type: "spring" as const, stiffness: 80, damping: 20 } 
     }
   };
 
@@ -28,7 +28,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden bg-white"
+      className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden bg-transparent"
     >
       {/* Minimalist interactive dot grid */}
       <div className="absolute inset-0 dot-grid opacity-30 pointer-events-none" />

@@ -28,7 +28,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden bg-white"
+      className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden bg-transparent"
     >
       {/* Minimalist interactive dot grid */}
       <div className="absolute inset-0 dot-grid opacity-30 pointer-events-none" />
